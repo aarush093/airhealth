@@ -1,0 +1,8 @@
+package/
+scikit_layer/
+__pycache__/
+*.zip
+.venv/
+*.pyc
+*.pkl
+*.onnx
