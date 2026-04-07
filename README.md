@@ -1,4 +1,4 @@
-# Daikin AC Predictive Maintenance API
+# airhealth AC Predictive Maintenance API
 
 A Machine Learning API that predicts AC unit failures based on sensor data.
 Deployed on AWS Lambda + API Gateway.
@@ -20,12 +20,12 @@ The model analyzes 5 sensor readings and predicts if an AC unit will fail:
 - Error Code Count
 
 ## Live API
-POST https://1usi5a4d5l.execute-api.ap-south-1.amazonaws.com/default/daikin-predictor
+POST https://1usi5a4d5l.execute-api.ap-south-1.amazonaws.com/default/airhealth-predictor
 
 ## Test It
 import requests
 
-url = "https://1usi5a4d5l.execute-api.ap-south-1.amazonaws.com/default/daikin-predictor"
+url = "https://1usi5a4d5l.execute-api.ap-south-1.amazonaws.com/default/airhealth-predictor"
 
 sick_ac = {
     "temperature": 75,
